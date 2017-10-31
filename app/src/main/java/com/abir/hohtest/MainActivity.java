@@ -9,10 +9,6 @@ import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 import com.plattysoft.leonids.ParticleSystem;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
 public class MainActivity extends Activity {
     ImageView sunrise,user;
 
@@ -42,32 +38,32 @@ public class MainActivity extends Activity {
         new ParticleSystem(this, 20, R.drawable.img_rubin_one, 10000, R.id.container)
                 .setSpeedModuleAndAngleRange(0f, 0.3f, 180, 0)
                 .setAcceleration(0.00010f, 90)
-                .emit(500,0,8,100000000);
+                .emit(500,0,4,100000000);
 
         new ParticleSystem(this, 20, R.drawable.img_rubin_two, 10000, R.id.container_two)
                 .setSpeedModuleAndAngleRange(0f, 0.3f, 180, 0)
                 .setAcceleration(0.00010f, 90)
-                .emit(700,0,8,100000000);
+                .emit(700,0,4,100000000);
 
         new ParticleSystem(this, 20, R.drawable.img_rubin_three, 10000, R.id.container_three)
                 .setSpeedModuleAndAngleRange(0f, 0.3f, 180, 0)
                 .setAcceleration(0.00010f, 90)
-                .emit(900,0,8,100000000);
+                .emit(900,0,6,100000000);
 
         new ParticleSystem(this, 80, R.drawable.img_rubin_four, 10000, R.id.container_four)
                 .setSpeedModuleAndAngleRange(0f, 0.3f, 180, 0)
                 .setAcceleration(0.00010f, 90)
-                .emit(1100,0,8,100000000);
+                .emit(1100,0,6,100000000);
 
         new ParticleSystem(this, 20, R.drawable.img_rubin_five, 10000, R.id.container_five)
                 .setSpeedModuleAndAngleRange(0f, 0.3f, 180, 0)
                 .setAcceleration(0.00010f, 90)
-                .emit(200,0,8,100000000);
+                .emit(200,0,2,100000000);
 
         new ParticleSystem(this, 20, R.drawable.img_rubin_six, 10000, R.id.container_six)
                 .setSpeedModuleAndAngleRange(0f, 0.3f, 180, 0)
                 .setAcceleration(0.00010f, 90)
-                .emit(1300,0,8,100000000);
+                .emit(1300,0,2,100000000);
 
     }
     
